@@ -94,7 +94,7 @@ nav {
     width: 35%;
   }
   .menu {
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -109,17 +109,18 @@ nav {
 @media only screen and (max-width: 1024px) {
   .main-content {
     padding: 40px;
-    font-size: 12px;
     padding-bottom: 120px;
   }
+
+
 }
 
 @media only screen and (max-width: 768px) {
   .main-content {
-    padding: 10px;
-    font-size: 12px;
+    padding: 20px;
     padding-bottom: 120px;
   }
+
 }
 
 .scroll-text-wrapper {
@@ -180,11 +181,18 @@ nav {
   .article-text {
     width: 70%;
   }
+.article-text p {
+  font-size: 16px;
+}
 }
 
-.article-text p {
-  font-size: 24px;
+@media only screen and (min-width: 768px) {
+  .article-text p {
+    font-size: 24px;
+  }
 }
+
+
 
 .is-visible {
   opacity: 1;
