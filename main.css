@@ -93,7 +93,7 @@ nav {
 
 @media (orientation: landscape) {
   .top-image {
-    width: 55%;
+    width: 35%;
   }
   .menu {
     padding-bottom: 0;
@@ -118,10 +118,7 @@ nav {
 @media only screen and (max-width: 1024px) {
   .main-content {
     padding: 40px;
-    padding-bottom: 120px;
   }
-
-
 }
 
 @media only screen and (max-width: 768px) {
