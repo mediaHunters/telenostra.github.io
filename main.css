@@ -93,6 +93,9 @@ nav {
   .top-image {
     width: 35%;
   }
+  .menu {
+    margin-bottom: 0;
+  }
 }
 
 .main-content {
