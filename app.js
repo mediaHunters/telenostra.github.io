@@ -9,14 +9,16 @@ const nav = document.querySelector("nav");
 
 let bottomLineValue;
 
-
 if (window.innerWidth > 768) {
-  bottomLineValue = textWrapper && (textWrapper.scrollTop + textWrapper.clientHeight) / 4;
+  bottomLineValue =
+    textWrapper && (textWrapper.scrollTop + textWrapper.clientHeight) / 4;
+} else if (window.orientation === 0) {
+  bottomLineValue =
+    textWrapper && (textWrapper.scrollTop + textWrapper.clientHeight) / 2;
 } else {
-bottomLineValue = textWrapper && (textWrapper.scrollTop + textWrapper.clientHeight) / 3;
-
+  bottomLineValue =
+    textWrapper && (textWrapper.scrollTop + textWrapper.clientHeight) / 3;
 }
-
 
 window.addEventListener("click", () => {
   setTimeout(() => {
@@ -29,8 +31,6 @@ window.addEventListener("click", () => {
     }
   }, 2000);
 });
-
-
 
 menuToggle.addEventListener("click", () => {
   nav.classList.toggle("active");
