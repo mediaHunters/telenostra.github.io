@@ -87,7 +87,7 @@ nav {
 
 @media only screen and (max-width: 768px) {
   .top-image {
-    width: 45%;
+    width: 100%;
   }
 }
 
