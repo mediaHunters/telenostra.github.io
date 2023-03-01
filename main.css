@@ -237,7 +237,7 @@ nav {
   display: flex;
   align-items: center;
   margin-top: 30px;
-  z-index: 9999999999;
+  z-index: 999999999;
 }
 
 .menu-toggle {
@@ -325,7 +325,7 @@ nav {
 
   .top-image-wrapper {
     order: 0;
-    width: 65%;
+    width: 100%;
     justify-self: center;
     padding-left: 70px;
   }
