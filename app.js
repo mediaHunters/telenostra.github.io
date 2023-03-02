@@ -51,8 +51,8 @@ window.addEventListener('orientationchange', function() {
 
 window.addEventListener("click", () => {
   const loader = document.querySelector(".loader-container");
-  loader.classList.add("hide-loader");
   if (loader) {
+    loader.classList.add("hide-loader");
     setTimeout(() => {
       loader.remove();
     }, 1500);
