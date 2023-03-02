@@ -239,6 +239,7 @@ nav {
     background: none;
     cursor: pointer;
     color: #a5827c;
+    z-index: 10;
   }
 
   .menu-items {
@@ -260,9 +261,10 @@ nav {
   .menu-items.show {
     display: flex;
     flex-direction: column;
-    background-color: #3f3035;
+    background-color: #31161C;
     align-items: center;
     justify-content: center;
+    z-index: 1;
   }
 }
 
