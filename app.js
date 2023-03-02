@@ -50,15 +50,13 @@ window.addEventListener('orientationchange', function() {
 });
 
 window.addEventListener("click", () => {
-  setTimeout(() => {
-    const loader = document.querySelector(".loader-container");
-    loader.classList.add("hide-loader");
-    if (loader) {
-      setTimeout(() => {
-        loader.remove();
-      }, 1000);
-    }
-  }, 2000);
+  const loader = document.querySelector(".loader-container");
+  loader.classList.add("hide-loader");
+  if (loader) {
+    setTimeout(() => {
+      loader.remove();
+    }, 1500);
+  }
 });
 
 menuToggle.addEventListener("click", () => {
