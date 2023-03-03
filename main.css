@@ -290,24 +290,17 @@ nav {
   }
 
   .menu-wrapper {
-    display: flex;
-    padding: 20px 0;
     margin-bottom: 10px;
   }
 
   .menu {
-    order: 1;
     margin-top: 0;
     align-items: flex-start;
-    margin-right: 12px;
-
   }
 
   .top-image-wrapper {
-    order: 0;
     width: min(50vw, 200px);
     justify-self: center;
-    padding-left: 80px;
   }
 
   .scroll-text {
