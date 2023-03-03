@@ -292,9 +292,13 @@ nav {
 }
 
 @media only screen and (max-width: 820px) {
-  .main-content, .contact-box {
+  .main-content{
     padding: 50px;
     padding-bottom: 120px;
+  }
+
+   .contact-box {
+    padding-bottom: 50px;
   }
 
   .menu-wrapper {
